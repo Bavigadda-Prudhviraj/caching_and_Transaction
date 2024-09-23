@@ -24,6 +24,5 @@ public class SalaryAccount {
     private Long version;
 
     @OneToOne(fetch = FetchType.LAZY)
-    @JsonIgnore
     private Employee employee;
 }
