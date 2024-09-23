@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: cachingAndTransaction
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cachingandtransaction
+    username: root
+    password: Prudhviraj@852
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  data:
+    redis:
+      host: redis-12371.c305.ap-south-1-1.ec2.redns.redis-cloud.com
+      port: 12371
+      password: x80wmd0SBkZHwbXCJfgXe31dmF6hKmb9
+      ssl:
+        enabled: false
+
+#  spring.application.name=cachingAndTransaction
+#  spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+#  spring.datasource.url=jdbc:mysql://localhost:3306/cachingandtransaction
+#  spring.datasource.username=root
+#  spring.datasource.password=Prudhviraj@852
+#
+#  spring.jpa.hibernate.ddl-auto=update
+#  spring.jpa.show-sql=true
+#  spring.jpa.properties.hibernate.format_sql = true
+#
+#  #radis configuration
+#  spring.data.redis.host=redis-12371.c305.ap-south-1-1.ec2.redns.redis-cloud.com
+#  spring.data.redis.port=12371
+#  spring.data.redis.password=x80wmd0SBkZHwbXCJfgXe31dmF6hKmb9
+#  spring.data.redis.ssl.enabled=false
